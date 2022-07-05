@@ -2,7 +2,7 @@
 //  LogMeByGPSApp.swift
 //  LogMeByGPS
 //
-//  Created by MacMini on 05/07/22.
+//  Created by Marco Spicciani on 05/07/22.
 //
 
 import SwiftUI

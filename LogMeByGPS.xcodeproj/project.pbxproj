@@ -11,6 +11,8 @@
 		9AC4B04B2874E4F900C2C701 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC4B04A2874E4F900C2C701 /* ContentView.swift */; };
 		9AC4B04D2874E4FA00C2C701 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AC4B04C2874E4FA00C2C701 /* Assets.xcassets */; };
 		9AC4B0502874E4FA00C2C701 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AC4B04F2874E4FA00C2C701 /* Preview Assets.xcassets */; };
+		9AC4B0572874E5D100C2C701 /* GpsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC4B0562874E5D100C2C701 /* GpsManager.swift */; };
+		9AC4B05A2874E7C100C2C701 /* BubbleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC4B0592874E7C100C2C701 /* BubbleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		9AC4B04A2874E4F900C2C701 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9AC4B04C2874E4FA00C2C701 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AC4B04F2874E4FA00C2C701 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9AC4B0562874E5D100C2C701 /* GpsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GpsManager.swift; sourceTree = "<group>"; };
+		9AC4B0592874E7C100C2C701 /* BubbleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,8 @@
 		9AC4B0472874E4F900C2C701 /* LogMeByGPS */ = {
 			isa = PBXGroup;
 			children = (
-				9AC4B0482874E4F900C2C701 /* LogMeByGPSApp.swift */,
-				9AC4B04A2874E4F900C2C701 /* ContentView.swift */,
+				9AC4B05B2874E7F900C2C701 /* View */,
+				9AC4B0582874E5D900C2C701 /* Model */,
 				9AC4B04C2874E4FA00C2C701 /* Assets.xcassets */,
 				9AC4B04E2874E4FA00C2C701 /* Preview Content */,
 			);
@@ -65,6 +69,24 @@
 				9AC4B04F2874E4FA00C2C701 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9AC4B0582874E5D900C2C701 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9AC4B0562874E5D100C2C701 /* GpsManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9AC4B05B2874E7F900C2C701 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9AC4B0482874E4F900C2C701 /* LogMeByGPSApp.swift */,
+				9AC4B04A2874E4F900C2C701 /* ContentView.swift */,
+				9AC4B0592874E7C100C2C701 /* BubbleButton.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +160,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AC4B04B2874E4F900C2C701 /* ContentView.swift in Sources */,
+				9AC4B05A2874E7C100C2C701 /* BubbleButton.swift in Sources */,
 				9AC4B0492874E4F900C2C701 /* LogMeByGPSApp.swift in Sources */,
+				9AC4B0572874E5D100C2C701 /* GpsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +294,8 @@
 				DEVELOPMENT_TEAM = D7864CJUFA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need to use your GPS info in order to Log You In !";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need to use your GPS info in order to Log You In !";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +325,8 @@
 				DEVELOPMENT_TEAM = D7864CJUFA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need to use your GPS info in order to Log You In !";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need to use your GPS info in order to Log You In !";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
