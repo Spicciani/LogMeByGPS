@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9AC40C3D28796B5400EF2591 /* MonitoringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC40C3C28796B5400EF2591 /* MonitoringAnimation.swift */; };
 		9AC4B0492874E4F900C2C701 /* LogMeByGPSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC4B0482874E4F900C2C701 /* LogMeByGPSApp.swift */; };
 		9AC4B04B2874E4F900C2C701 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC4B04A2874E4F900C2C701 /* ContentView.swift */; };
 		9AC4B04D2874E4FA00C2C701 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AC4B04C2874E4FA00C2C701 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9AC40C3C28796B5400EF2591 /* MonitoringAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitoringAnimation.swift; sourceTree = "<group>"; };
 		9AC4B0452874E4F900C2C701 /* LogMeByGPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogMeByGPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AC4B0482874E4F900C2C701 /* LogMeByGPSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogMeByGPSApp.swift; sourceTree = "<group>"; };
 		9AC4B04A2874E4F900C2C701 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				9AC4B0482874E4F900C2C701 /* LogMeByGPSApp.swift */,
 				9AC4B04A2874E4F900C2C701 /* ContentView.swift */,
 				9AC4B0592874E7C100C2C701 /* BubbleButton.swift */,
+				9AC40C3C28796B5400EF2591 /* MonitoringAnimation.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AC4B04B2874E4F900C2C701 /* ContentView.swift in Sources */,
+				9AC40C3D28796B5400EF2591 /* MonitoringAnimation.swift in Sources */,
 				9AC4B05A2874E7C100C2C701 /* BubbleButton.swift in Sources */,
 				9AC4B0492874E4F900C2C701 /* LogMeByGPSApp.swift in Sources */,
 				9AC4B0572874E5D100C2C701 /* GpsManager.swift in Sources */,
@@ -294,7 +298,9 @@
 				DEVELOPMENT_TEAM = D7864CJUFA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need to use your GPS info in order to Log You In !";
+				INFOPLIST_KEY_NSLocationUsageDescription = "We need GPS usage";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need to use your GPS info in order to Log You In !";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -325,7 +331,9 @@
 				DEVELOPMENT_TEAM = D7864CJUFA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need to use your GPS info in order to Log You In !";
+				INFOPLIST_KEY_NSLocationUsageDescription = "We need GPS usage";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need to use your GPS info in order to Log You In !";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
